@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+.container {
+    display: flex;
+    width: 820px;
+    height: 420px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container div {
+    width: 33.3%;
+    border-radius: 10px;
+    padding: 35px;
+    position: relative;
+}
+.container img {
+    width: 55px;
+    height: 37px;
+}
+.container div p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.container div h2 {
+    color: hsla(0, 0%, 100%, 0.9);
+
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 25px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+.container .sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.container .svus{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0px;
+}
+.container .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.container div button {
+    border: 2px solid #FFF;
+    outline: none;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 50px;
+    height: 40px;
+    width: 125px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.container div button:hover {
+    background-color: transparent;
+    color: #FFF;
+    cursor: pointer;
+}
+.container .sedans button {
+    color: hsl(31, 77%, 52%);
+}
+.container .svus button {
+    color: hsl(184, 100%, 22%);
+}
+.container .luxury button {
+    color: hsl(179, 100%, 13%);
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+    margin-bottom: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    /* font-size: 18px; */
+}
+.footer span a{
+    color: hsl(31, 77%, 52%);
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.footer span:hover {
+   text-decoration: underline;
+   font-size: 18px;
+}
