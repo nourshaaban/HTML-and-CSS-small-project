@@ -133,7 +133,8 @@ body {
     .container div button {
         Position: absolute;
         Bottom: 30px;
-        Right: 20px
+        Right: 20px;
+        Margin-top: 20px
     }
     .container .sedans {
         background-color: hsl(31, 77%, 52%);
