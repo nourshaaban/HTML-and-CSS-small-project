@@ -128,9 +128,12 @@ body {
         width: 80%;
         border-radius: 10px;
         height: 100%;   
+        Position: relative;
     }
     .container div button {
-        margin-top: 40px;
+        Position: absolute;
+        Bottom: 50px;
+        Right: 30px
     }
     .container .sedans {
         background-color: hsl(31, 77%, 52%);
