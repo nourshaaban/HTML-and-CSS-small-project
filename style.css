@@ -128,7 +128,8 @@ body {
         width: 80%;
         border-radius: 10px;
         height: 100%;   
-        Position: relative;
+        Display:flex;
+        Flex direction: column;
     }
     .container div button {
         Position: absolute;
